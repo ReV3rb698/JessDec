@@ -13,9 +13,9 @@ body{
     justify-content: center;
     align-items: center;
     background: #ffeeee;
+    overflow: scroll;
 }
 .main_letter { /* have the letter to be above the screen initially*/
-    
     display: none;
     flex-direction: column;
     align-items: left;
@@ -27,7 +27,8 @@ body{
     background-color: #f9f9f9; /* Slightly off-white */
     border: 1px solid #ddd; /* Thin, light gray border */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-    padding: 500px 2rem 500px 2rem; /* Add some padding */
+    padding: 2rem; /* Add some padding */
+    overflow: auto; /* Add scrollbars if needed */
 }
 .main_letter p {
     font-size: 2rem;
